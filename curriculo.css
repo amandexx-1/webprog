@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+    color: rgb(255, 0, 200);
+}
+
+.section.photo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.minhadiv {
+    background-color: #f0f0f0;
+    transition: 1.5s;
+    border: dashed black;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.minhadiv:hover {
+    background-color: #dcdcdc;
+}
+
+p {
+
+    font-family: Verdana;
+}
+
+body ol {
+    list-style-type: upper-alpha;
+}
+
+.section-blue a {
+    background-color: #e2ebf1;
+    padding: 1px;
+    margin: 5px 0;
+}
