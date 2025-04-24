@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"uri": "vscode-remote://codespaces+probable-invention-r4w6pxg9gw593x4p9/workspaces/webprog"
+		}
+	],
+	"remoteAuthority": "codespaces+probable-invention-r4w6pxg9gw593x4p9",
+	"settings": {
+		"git.blame.editorDecoration.enabled": true
+	}
+}
