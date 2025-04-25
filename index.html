@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Currículo</title>
-    <link rel="stylesheet" href="curriculo.css">
-
     <style>
         body {
             max-width: 800px;
@@ -20,7 +18,7 @@
         }
 
         .section {
-            border: 1px;
+            border: 1px solid #ccc;
             padding: 15px;
             border-radius: 5px;
         }
@@ -31,71 +29,36 @@
     </style>
 </head>
 
-
 <body>
-    <h2>Amanda Dias G. de Sales</h2>
-
-    <div class="section photo">
-        <img src="Avatar.png" alt="Minha Foto">
+    <div class="container"> <!-- Foto e Informações Pessoais -->
+        <div class="section photo"> <img src="Avatar.png" alt="Minha Foto">
+            <h2>Amanda Dias G. de Sales</h2>
+            <p>Email: amandadgsales123@gmail.com</p>
+            <p>Telefone: (27) 9999-0001</p>
+        </div> <!-- Formação Acadêmica -->
+        <div class="section">
+            <h3>Formações Acadêmicas</h3>
+            <ol>
+                <li><a href="https://ifes.edu.br/o-ifes" target="_blank">IFES - Instituto Federal do Espirito Santo</a></li>
+                <li><a href="https://ifes.edu.br/o-ifes" target="_blank">Programação HTML - IFES</a></li>
+                <li><a href="https://www.google.com.br/?hl=pt-BR" target="_blank">Programação Java Script - Google Acâdemico</a></li>
+            </ol>
+        </div> <!-- Formação Complementar -->
+        <div class="section">
+            <h3>Formações Complementares</h3>
+            <ol>
+                <li>Curso de Inglês Intermediário</li>
+                <li>Cursos de Teatro de Musicais</li>
+            </ol>
+        </div> <!-- Soft Skills -->
+        <div class="section">
+            <h3>Soft Skills</h3>
+            <ol>
+                <li><a href="softskills/organizacao.html">Organização</a></li>
+                <li><a href="softskills/trabalho_em_equipe.html">Trabalho em Equipe</a></li>
+            </ol>
+        </div>
     </div>
-
-
-    <div class="section section-blue">
-        <a>Rede Social: amandexxx</a><br>
-        <a>Idade: 21 anos</a><br>
-        <a>Email: amandadgsales123@gmail.com</a>
-    </div>
-
-
-
-    <ol>
-        <li>
-            <div class="minhadiv">
-                <h3>Formações Acadêmicas</h3>
-
-                <p>
-                    <a href="https://serra.ifes.edu.br/" target="_blank">IFES Campus Serra -Técnico em
-                        Infórmatica</a><br>
-                    <a href="https://vitoria.ifes.edu.br/" target="_blank">Programação HTML e CSS- IFES Campus
-                        Vitória</a><br>
-                    <a href="https://blog.google/products/classroom/" target="_blank">Programação Java Script - Google
-                        Acâdemico</a><br>
-                </p>
-
-
-            </div>
-        </li>
-
-
-
-        <li>
-            <div class="minhadiv">
-                <h3>Formações Complementares</h3>
-
-                <p>
-                    <a>Curso de Inglês Intermediário</a><br>
-                    <a>Cursos de Teatro de Musicais</a><br>
-                </p>
-
-            </div>
-        </li>
-
-
-
-        <li>
-            <div class="minhadiv">
-                <h3>Soft Skills</h3>
-
-                <p>
-                    <a href="softskills/organizacao.html">Organização</a><br>
-                    <a href="softskills/trabalho_em_equipe.html">Trabalho em Equipe</a>
-                </p>
-
-
-            </div>
-        </li>
-    </ol>
-
 </body>
 
 </html>
