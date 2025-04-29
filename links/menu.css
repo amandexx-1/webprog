@@ -1,0 +1,47 @@
+body {
+    background-color: #493218;
+}
+
+.container {
+    width: 960px;
+    background-color: #f8f7f5;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Playwrite RO', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+header , footer {
+    text-align: left;
+    background-color: #266b20;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    margin: auto;
+    text-align: left;
+  }
+  
+ 
+  th {
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+
+  
+  td img {
+    border-radius: 25px;
+    width: 100px;
+  }
+  
+  
+  tbody tr:hover {
+    background-color: #79f39e;
+  }
+  

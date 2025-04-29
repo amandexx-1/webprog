@@ -1,0 +1,60 @@
+body {
+    background-color: #493218;
+}
+
+.container {
+    width: 960px;
+    background-color: #f8f7f5;
+    margin: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: left; 
+    background-color: #fdf9e5;
+  }
+
+  .menu li {
+    margin: 0 15px; 
+  }
+  
+  .menu a {
+    text-decoration: none; 
+    color: #4b00ff; 
+    font-family: 'Playwrite RO', sans-serif; 
+    font-size: 15px;
+  }
+  
+  .menu a:hover {
+    color: #000; 
+  }
+
+h1 {
+    text-align: center;
+    font-family: 'Playwrite RO', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.section.photo img {
+    display: block;
+    width: 960px;
+    margin: auto;
+}
+
+ol {
+    list-style-type: decimal;
+
+}
+
+a {
+    color: #266b20;
+    text-decoration: none;
+}
+
+header , footer {
+    text-align: center;
+    
+    background-color: #266b20;
+}

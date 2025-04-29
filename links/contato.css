@@ -1,0 +1,40 @@
+body {
+    background-color: #493218;
+}
+
+.container {
+    width: 960px;
+    background-color: #f8f7f5;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Playwrite RO', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+header {
+    text-align: left;
+    background-color: #266b20;
+}
+
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #681414;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+
+input:focus,
+textarea:focus {
+    background-color: #b3e5fc;
+    border: 2px solid #0288d1;
+    outline: none;
+}
