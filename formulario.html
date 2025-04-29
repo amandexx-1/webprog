@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuário</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+RO:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="form-container">
+
+        <h2>Cadastrar usuário</h2>
+
+        <form>
+            <fieldset>
+                <legend><span class="step">1</span> Dados pessoais</legend>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+
+                <label for="confirmar">Confirma senha:</label>
+                <input type="password" id="confirmar" name="confirmar">
+
+                <label>Idade:</label>
+                <input type="radio" id="acima17" name="idade" value="acima">
+                <label for="acima17">Acima 17</label><br>
+                <input type="radio" id="abaixo17" name="idade" value="abaixo">
+                <label for="abaixo17">Abaixo ou igual 17</label>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend><span class="step">2</span> Perfil</legend>
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao"></textarea>
+
+                <label for="perfil">Perfil trabalho:</label>
+
+                <select id="perfil" name="perfil">
+                    <option>Front-End Developer</option>
+                    <option>Back-End Developer</option>
+                    <option>Full Stack</option>
+                </select>
+
+                <label>Interesses:</label>
+                <input type="checkbox" id="programador" name="interesses" value="Programador">
+                <label for="programador">Programador</label><br>
+
+                <input type="checkbox" id="design" name="interesses" value="Design">
+                <label for="design">Design</label><br>
+
+                <input type="checkbox" id="analista" name="interesses" value="Analista">
+                <label for="analista">Analista</label>
+            </fieldset>
+
+
+            <button type="submit">Enviar dados</button>
+        </form>
+    </div>
+</body>
+
+</html>
