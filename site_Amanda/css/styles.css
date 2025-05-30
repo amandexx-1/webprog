@@ -13,14 +13,15 @@ header {
     padding: 10px 30px;
 }
 
-header h1 {
-    font-size: 24px;
-    color: #333;
+.topo {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
 }
 
-.logo {
-    width: 60px;
-    height: 60px;
+header img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
