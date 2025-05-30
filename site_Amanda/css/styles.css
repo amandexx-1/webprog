@@ -17,9 +17,12 @@ header h1 {
     font-size: 24px;
     color: #333;
 }
-header .logo {
-    font-weight: bold;
-    font-size: 5px;
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 body {
@@ -101,7 +104,7 @@ main h1 {
 .gallery img {
     width: 100%;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .gallery p {
